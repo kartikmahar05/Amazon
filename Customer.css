@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+.box{
+    color: rgb(151, 151, 151);
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 25px;
+}
+.box a{
+    text-decoration: none;
+}
+.box a:hover{
+    color: black
+}
+#rec{
+    height: 38px;
+    width: 800px;
+    margin-top: 4px;
+    padding-left: 2px;
+}
+.searchicon{
+    margin-top: 5px;
+    height: 50px;
+}
+.flag{
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+#img{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+#p{
+    margin-top: -10px;
+}
+.EN{
+    color: white;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+.hello{
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.return{
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.nav1{
+    display: flex;
+    background-color: #232f3e;
+    height: 33px;
+          }
+.all{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.today{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Customer{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Customer a{
+    color: white;
+    text-decoration: none;
+}
+.Registry{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.gift{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+.Sell{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.SHOP{
+    color: white;
+    margin-top: 5px;
+    margin-left: 830px;
+}
+.Secondarynav{
+    color: white;
+    height: 50px;
+    background-color: #007185;
+    border-bottom: 2px groove black;
+}
+.Secondarynav ul{
+    display: flex;
+}
+.Secondarynav li{
+    margin: 10px;
+    list-style: none;
+}
+.PARENTcust{
+    height: 650px;
+    background-color: #007185;
+    color: white;
+}
+#zap{
+    font-size: 33px;
+    font-weight: 900;  
+    margin-top: -2px;      }
+.FIrSt{
+    background-color: white;
+    color: black;
+    height: 75px;
+    width: 340px;
+    padding: 5px;
+    font-family: Arial,  sans-serif;
+    border-radius: 5px;
+}
+.custu1row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.PAREnt2{
+    height: 800px;
+    width: 100%;
+    background-color: #f7fafa;
+}
+#pap{
+    margin-left: -770px;
+}
+.PAREnt2{
+    color: black;
+}
+#laa{
+    height: 35px;
+    width: 1200px;
+    margin-left: 40px;
+    border: 1px solid black;
+}
+.SLfooter {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color:  #232f3e;
+}
+
+.SLfooter li {
+    list-style: none;
+    margin-top: 10px;
+}
+.backto {
+    background-color: #37475a;
+    height: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.gettowork {
+    word-spacing: 20px;
+}
+
+.Footerlogo {
+    height: 200px;
+    background-color: #232f3e;
+}
+
+.endfoot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding: 25px;
+    height: 420px;
+    width: 100%;
+}
+
+.endfoot {
+    font-family: inherit;
+}
+
+.endfoot li {
+    font-size: 10px;
+    list-style: none;
+    margin-top: -2px;
+}
+
+.unimg {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.ENd {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.COPy{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}
+.FlisT{
+    height:12px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.SlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+.TlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.DlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;    
+}
+.GlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+.HlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.JlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+.KlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+.LlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+.ZlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+.XlisT{
+    height:10px;
+    width: 180px;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+.compo{
+background-color: white;
+margin: 10px;
+    color: black;
+    height: 80px;
+    width: 420px;
+    padding: 5px;
+    font-family: Arial,  sans-serif;
+    border-radius: 5px;
+    margin-top: 20px;
+     font-size: 20px;
+     margin-left: 70px;
+}
+.paRentDC{
+display: flex;
+}

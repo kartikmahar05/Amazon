@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                *{
+            margin: 0px;
+            padding: 0px;
+          
+        }
+        .navbar{
+            display: flex;
+            background-color: black;
+            height: 55px;
+            width: 100%;
+        }
+        .box{
+            color: rgb(151, 151, 151);
+            height: 30px;
+            width: 60px;
+            background-color: whitesmoke;
+            padding-top: 10px;
+            border-radius: 10px 0px 0px 10px;
+            margin-top: 5px;
+            padding-left: 4px;
+            margin-left: 25px;
+        }
+        .box a{
+            text-decoration: none;
+        }
+        .box a:hover{
+            color: black
+        }
+        #rec{
+            height: 38px;
+            width: 800px;
+            margin-top: 4px;
+            padding-left: 2px;
+        }
+        .searchicon{
+            margin-top: 5px;
+            height: 50px;
+        }
+        .flag{
+            color: white;
+            height: 50px;
+            width: 100px;
+            background-color: black;
+        }
+        #img{
+            margin-top: 16px;
+            margin-left: 15px;
+        }
+        #p{
+            margin-top: -10px;
+        }
+        .EN{
+            color: white;
+            font-size: 18px;
+            margin-top: 21px;
+            margin-left: -20px;
+        }
+        .hello{
+            color: white;
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+        .return{
+            color: white;
+            margin-left: 35px;
+            margin-top: 15px;
+        }
+        .nav1{
+            display: flex;
+            background-color: #232f3e;
+            height: 33px;
+                  }
+        .all{
+            color: white;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .today{
+            color: white;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .Customer{
+            color: white;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .Customer a{
+            color: white;
+            text-decoration: none;
+        }
+        .Registry{
+            color: white;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .gift{
+            color: white;
+            margin-top: 5px;
+            margin-left: 20px;
+
+        }
+        .Sell{
+            color: white;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .SHOP{
+            color: white;
+            margin-top: 5px;
+            margin-left: 830px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="navbar">
+            <div class="logo" onmouseover="border()" onmouseleave="undo()">
+                <img src="./Amazon-Logo-Black.jpg" alt=""height="35px" width="" id="logo" style="margin-top: 15px; margin-left: 30px; ">
+            </div>
+            <div class="mark" onmouseover="border1()" onmouseleave="undo1()">
+                <img src="./Screenshot (5).png" alt=""height="40px" width="" style="margin-top: 10px;margin-left: 15px; " >
+            </div>
+            <div class="box">
+               <a href="#"> <span > All</span></a>
+            </div>
+            <div class="rect">
+                <input type="text" placeholder="Search Amazon" id="rec">
+            </div>
+            <div class="searchicon">
+               <a href="#rec"><img src="./OIP.jpg" alt=""height="40px" width="60px" ></a> 
+            </div>
+            <div class="flag">
+                <img src="./united-states.png" alt="" height="30px" width="" id="img"> 
+            </div>
+            <div class="EN">
+                EN
+            </div>
+            <div class="hello" onmouseover="border2()" onmouseleave="undo2()">
+                Hello,sign in <br>
+                <h5>Accounts&Lists</h5>
+            </div>
+            <div class="return" onmouseover="border3()" onmouseleave="undo3()" >
+             Returns <br>
+           <b> &Orders</b>
+           </div> 
+           <div class="cart">
+            <img src="./1682342992907.jpg" alt=""height="50px" width="" style="margin-left:15px;" >
+           </div>
+        </div>
+        <div class="nav1">
+            <div class="allicon">
+                <img src="./Screenshot (7).png" alt=""height="20px" style="margin-left: 20px; margin-top: 3px; ">
+            </div>
+            <div class="all" onmouseover="border4()" onmouseleave="undo4()">
+                All
+            </div>
+         <a href="todaydeal.html"><div class="today"  onmouseover="border5()" onmouseleave="undo5()">
+                Today,s Deals
+            </div></a>
+            <div class="Customer" onmouseover="border6()" onmouseleave="undo6()">
+             <a href="Customer.html">Customer Service</a>
+            </div>
+            <div class="Registry" onmouseover="border7()" onmouseleave="undo7()">
+                Registry
+            </div>
+            <div class="gift" onmouseover="border8()" onmouseleave="undo8()">
+                Gifts Cards
+            </div>
+            <div class="Sell"  onmouseover="border9()" onmouseleave="undo9()">
+                Sell
+            </div>
+            <div class="SHOP"onmouseover="border10()" onmouseleave="undo10()">
+               <b> Shops great deals now</b>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

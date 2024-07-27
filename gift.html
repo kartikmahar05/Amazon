@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./project.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="gift.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="navbar">
+            <div class="logo" onmouseover="border()" onmouseleave="undo()">
+                <img src="images/Amazon-Logo-Black.jpg" alt=""height="35px" width="" id="logo" style="margin-top: 15px; margin-left: 30px; ">
+            </div>
+            <div class="mark" onmouseover="border1()" onmouseleave="undo1()">
+                <img src="images/Screenshot (5).png" alt=""height="40px" width="" style="margin-top: 10px;margin-left: 15px; " >
+            </div>
+            <div class="box">
+               <a href="#"> <span > All</span></a>
+            </div>
+            <div class="rect">
+                <input type="text" placeholder="Search Amazon" id="rec">
+            </div>
+            <div class="searchicon">
+               <a href="#rec"><img src="images/OIP.jpg" alt=""height="40px" width="60px" ></a> 
+            </div>
+            <div class="flag">
+                <img src="images/united-states.png" alt="" height="30px" width="" id="img"> 
+            </div>
+            <div class="EN">
+                EN
+            </div>
+            <div class="hello" onmouseover="border2()" onmouseleave="undo2()">
+                Hello,sign in <br>
+                <h5>Accounts&Lists</h5>
+            </div>
+            <div class="return" onmouseover="border3()" onmouseleave="undo3()" >
+             Returns <br>
+           <b> &Orders</b>
+           </div> 
+           <div class="cart">
+            <img src="images/1682342992907.jpg" alt=""height="50px" width="" style="margin-left:15px;" >
+           </div>
+        </div>
+        <div class="nav1">
+            <nav class="sidebar">
+                <div class="text"><h4>Hello, Sign in</h4></div>
+                <ul>
+                    <li><a href="#">Clothing,shoes, watches & toys</a></li>
+                    <li>
+                    <a href="#" class="feat-btn">Books <span class="fas fa-caret-down first"></span></a>
+                    <ul class="feat-show">
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Music</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="serv-btn">Electronics <span class="fas fa-caret-down second"></span></a>
+                        <ul class="serv-show">
+                            <li><a href="#">Car Electronics</a></li>
+                            <li><a href="#">Home audio & Theater</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Amazon health</a></li>
+                        <li><a href="#">Whole Food market</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Feedback</a></li>
+                </ul>
+            </nav>
+            <div class="allicon">
+                <img src="images/Screenshot (7).png" alt=""height="20px" style="margin-left: 20px; margin-top: 3px; " id="imggg" onclick="src()" ondblclick="usrc()">
+            </div>
+            <a href="amazon.html"><div class="all" onmouseover="border4()" onmouseleave="undo4()">
+                All
+            </div></a>
+         <a href="todaydeal.html"><div class="today"  onmouseover="border5()" onmouseleave="undo5()">
+                Today,s Deals
+            </div></a>
+            <div class="Customer" onmouseover="border6()" onmouseleave="undo6()">
+             <a href="Customer.html">Customer Service</a>
+            </div>
+           <a href="registery.html"><div class="Registry" onmouseover="border7()" onmouseleave="undo7()">
+                Registry
+            </div></a> 
+            <a href="gift.html"><div class="gift" onmouseover="border8()" onmouseleave="undo8()">
+                Gifts Cards
+            </div></a>
+            <a href="sell.html"><div class="Sell"  onmouseover="border9()" onmouseleave="undo9()">
+                Sell
+            </div></a>
+            <div class="SHOP"onmouseover="border10()" onmouseleave="undo10()">
+               <b> Shops great deals now</b>
+            </div>
+        </div>
+        <div class="Parent" style="display: flex;">
+            <div class="FIRSt" style="box-sizing: border-box; margin-left: 30px; margin-top: 20px;">
+                <img src="images/418EkQ+kI8L._AC_US40_.jpg" alt="" height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/41DYMmhsr4L._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/51wE8XtZdlL._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/51uUqlcN27L._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/51sppnxTB6L._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/512ddIeM76L._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;"> <br>
+                <img src="images/516N4JxdRiL._AC_US40_.jpg" alt=""height="50px" style="border-radius: 15px;">  <br>
+            </div> 
+            <div class="SeCond" style="box-sizing: border-box; margin-left: 20px; margin-top: 20px;" >
+               <div class="S1">
+                <img src="images/1232BSZ.png" alt="" height="600px" width="700px"> 
+               </div> <br>
+               <div class="S2" style="width: 700px; height: 120px; background-color: #f8f8f8;margin-top: -22px;font-family: sans-serif; font-family: 900; font-size: 32px;box-sizing: border-box;text-align: center; padding-top: 30px;">
+                Max your Time with family And <br> friends with an 8MP camera
+               </div>
+            </div>
+            <div class="ThIrd" style="height: 1100px; width: 430px; box-sizing: border-box;" >
+               <div class="T1" style="font-size: 23px; padding: 30px;">
+                    Introducing Amazon Fire Max 11 tablet, our most powerful tablet yet, vivid 11" display, octa-core processor, 4 GB RAM, 14-hour battery life, 64 GB, Gray <br>
+                    <a href="#"style="font-size: 19px;">Brand:Amazon</a> <br> <br>
+                    <span style="color: rgb(124, 190, 25); font-size: 17px;">Climate Pledge Friendly</span>
+                    <br> <br> <hr style="color:grey; height: 1px solid;;  ">
+                    <br> $299<sup>99</sup>     <br> 
+                    <a href="#" style="font-size: 19px;">Free Returns</a> <br> <br>
+                    <div class="midbox" style="background-color: #f8f8f8; height: 30px; width: 130px; font-size: 14px;">
+                        Save 20% with <a href="#" style="font-size: 12px;">Trade in</a>
+                    </div> <br>  <hr style="color:grey; height: 1px solid;  "> 
+                    <b style="font-size: 18px;">Fire tablets</b> <a href="#" style="font-size: 14px;">See the differences</a> <br> <br>
+                    <img src="images/416VntZqH3L._AC_UF226,226_FMjpg_.jpg" alt="">
+                </div>
+            </div>
+            <div class="rightS">
+                 <br>
+                 <h2>Shop by card type</h2> <br>
+                 <img src="images/VX-1125-Q2_GCLP_US_3C_eGC._CB595404327_.jpg" alt="" height="400px" width="270px"> <br>
+                 <h3>eGift cards</h3> <br> <br>
+                 <span>Add your personal message and send by <br>
+                    email or text
+                </span>
+            </div>
+    </div>
+    <hr style="color:grey; height: 1px solid;  "> <br>
+    <div class="Parent1" style="display: flex;">
+        <div class="ff" style="margin-left: 140px;">
+            <img src="images/VX-1125-Q2_GCLP_US_2C_BGC_US-1._CB1198675309_.jpg" alt="" height="250px" width="600px"> <br>
+            <h2>Specialty gift cards </h2> <br>
+            <span>Give a gift from their favorite band.</span> <br>
+            <a href="#" style="font-size: 12px;">See all brands</a>
+        </div>
+        <div class="SS"style="margin-left: 50px;">
+            <img src="images/VX-1125-Q2_GCLP_US_2C_ASV.jpg" alt=""height="250px" width="600px" > <br>
+            <h2>Amazon Reload </h2> <br>
+            <span>Easily add funds to your gift card balance.</span> <br>
+            <a href="#" style="font-size: 12px;">Find out How</a>
+        </div> <br>
+    </div> 
+    <br>
+    <h1>Shop gift cards for Father,s day</h1>  <hr style="color:grey; height: 1px solid;  "> <br>
+    <div class="main-carousel">
+        <div class="cell"><img src="images/517QUOzl6pL._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/51wbKHeSrXL._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/61Gsmb8oBAL._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/416tl4j5g+L._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/417hlPwX-GL._AC_SX184_.jpg" alt="" width="150px" height="170px" ></div>
+        <div class="cell"><img src="images/51MpJzmcl8S._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/41nyL5SMEUL._AC_SX184_.jpg" alt="" width="150px"></div>
+        <div class="cell"><img src="images/41+CyOcvFBL._AC_SX184_.jpg" alt="" width="150px"></div>
+
+    </div> <br> <br> <hr style="color:grey; height: 1px solid;  "> <br> <br>
+    <h2 style="margin-left: 100px;">Amazon.com Personalized eGift Cards</h2> <br> <br>
+    <div class="divq" style="display: flex; justify-content: space-evenly;" >
+        <div class="fffff">
+            <img src="images/VX-1125-Q2_GCLP_US_3C_Personalized_Photo.jpg" alt=""height="250px" width="450px">
+        </div>
+        <div class="sssss">
+            <img src="images/3C_Event_Music._CB617795802_.png" alt=""height="250px" width="450px">
+        </div>
+        <div class="ttttt">
+            <img src="images/3C_Event_Twitch.png" alt=""height="250px" width="450px">
+        </div>
+    </div> <br> <br>
+    <div class="ssslll" style="box-sizing: border-box;">
+        <span style="font-size: 28px; margin-left: 300px;">Frequently asked questions about Amazon.com gift cards</span> <br>
+        <div class="but1">
+            What can Amazon Gift Cards be redeemed towards?
+        </div>
+        <div class="but2">
+            Are there any fees or expiration date to use Amazon Gift Cards?
+        </div>
+        <div class="but3">
+            Are there any shipping costs on Amazon Gift Cards?
+        </div>
+    </div>
+    <br>
+    <div class="SLfooter">
+        <div class="gettoworK">
+            <b> Get to Know Us</b> <br> <br>
+            <ul>
+                <li>Careers</li>
+                <li>Amazon<br>Newsletter</li>
+                <li>About Amazon</li>
+                <li>Accessibility</li>
+                <li>Sustainability</li>
+                <li>Press Center</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+            </ul>
+        </div>
+        <div class="Makemoney">
+            <b> Make Money with Us</b> <br> <br>
+            <ul>
+                <li>Sell products on Amazon</li>
+                <li>Sell apps on Amazon</li>
+                <li>Supply to Amazon</li>
+                <li>Protect & Build Your <br> Brand</li>
+                <li>Become an Affiliate</li>
+                <li>Become a Delivery Driver</li>
+                <li>Start a package delivery <br> business</li>
+                <li>Advertise Your <br> Products</li>
+                <li>Self-Publish with Us</li>
+                <li>Host an Amazon Hub</li>
+            </ul>
+        </div>
+        <div class="Apayment">
+            <b>Amazon Payment Products</b> <br> <br>
+            <ul>
+                <li>Amazon Visa</li>
+                <li>Amazon Store Card</li>
+                <li>Amazon Secured Card</li>
+                <li>Amazon Business Card</li>
+                <li>Shop with Points</li>
+                <li>Credit Card Marketplace</li>
+                <li>Investor Relations</li>
+                <li>Reload Your Balance</li>
+                <li>Amazon Currency Converter</li>
+            </ul>
+        </div>
+        <div class="gettoworK">
+            <b>Let Us Help You</b> <br> <br>
+            <ul>
+                <li>Amazon and COVID-<br>19</li>
+                <li>Your Account</li>
+                <li>Your Orders</li>
+                <li>Shipping Rates &<br>Policies</li>
+                <li>Amazon Prime</li>
+                <li>Returns &<br>Replacements</li>
+                <li>Manage Your Content and Devices</li>
+                <li>Your Recalls and Product Safety Alerts</li>
+                <li>Help</li>
+            </ul>
+        </div>
+    </div>
+    <div class="Footerlogo">
+        <hr style="color: azure">
+        <img src="images/foooterlogo.png" alt="" style="margin-left: 300px; margin-top: 30px;">
+        <div id="FOO" style="display: flex; color: white; margin-left: 700px; margin-top: -80px; ">
+            <div class="unimg"><img src="images/united-states.png" alt="" height="30px" width=""> </div>
+            <div class="united">
+                <span style="margin-top: 15px;">
+                    United States
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <div class="endfoot" style="color: white;">
+        <div class="gettoworKKK" onmouseover="line()" onmouseleave="Undoline()">
+            <span style="font-size: 13px; "> Amazon Music </span>
+            <li>Careers</li> <br>
+            <span style="font-size: 13px;"> Amazon Business </span>
+            <li>Everthing for <br>Your business</li> <br>
+            <span style="font-size: 13px;"> Audible </span>
+            <li>Listen to Books & <br>Original <br> Audio performance</li><br>
+            <span style="font-size: 13px;"> Goodreads </span>
+            <li>Book reviews <br>& recommendations</li><br>
+            <span style="font-size: 13px;"> Shopbhop </span>
+            <li>Designer <br>Fashion brands</li> <br>
+            <span style="font-size: 13px;"> eero WIFI </span>
+            <li>Stream 4K Vedio <br>in Every Room </li><br>
+
+        </div>
+        <div class="gettoworKKK" onmouseover="line1()" onmouseleave="Undoline1()" id="WWW">
+            <span style="font-size: 13px; "> Amazon Advertising </span>
+            <li>Find,attract,and <br>engage Customers</li> <br>
+            <span style="font-size: 13px;"> Amazon Fresh </span>
+            <li>Groceries & More<br>Right to your <br> Door</li> <br>
+            <span style="font-size: 13px;">Book Depository </span>
+            <li>Book with free <br>Delivery<br>Worldwide</li><br>
+            <span style="font-size: 13px;"> IMDb </span>
+            <li>Movies,TV<br>& Celebrities</li><br>
+            <span style="font-size: 13px;">Amazon <br>Warehouse </span>
+            <li>Great deals on<br>Quality used <br>products</li> <br>
+            <span style="font-size: 13px;">Blimk </span>
+            <li>Smart security <br> for every house </li><br>
+
+        </div>
+        <div class="gettoworKKK" onmouseover="line2()" onmouseleave="Undoline2()" id="PPP">
+            <span style="font-size: 13px; "> 6pm </span>
+            <li>Score deals <br>fashion brands</li> <br>
+            <span style="font-size: 13px;"> Amazon Global </span>
+            <li>Ship orders<br>Internationally</li> <br>
+            <span style="font-size: 13px;">Box Office Mojo </span>
+            <li>Find Movie<br>Box Office data</li><br>
+            <span style="font-size: 13px;"> IMDbPro </span>
+            <li>Get info<br>Entertainment <br>Professionals Need</li><br>
+            <span style="font-size: 13px;">WHole Foods Market </span>
+            <li>America,s Healthiest <br>Grocery Store</li> <br>
+            <span style="font-size: 13px;">Neighbours App </span>
+            <li>Real-time crime<br>& Safety Alerts </li><br>
+
+        </div>
+        <div class="gettoworKKK" onmouseover="line3()" onmouseleave="Undoline3()" id="PP">
+            <span style="font-size: 13px; ">AbeBooks </span>
+            <li>Books,art <br>Collectibles</li> <br>
+            <span style="font-size: 13px;">Home Services </span>
+            <li>Experienced Pros<br>Happiness Guarantee</li> <br>
+            <span style="font-size: 13px;">ComiXology </span>
+            <li>Thousands of<br>Digital Comics</li><br>
+            <span style="font-size: 13px;">Kindle Direct Publishing </span>
+            <li>Indie Digital & Print Publishing<br>Made easy</li><br>
+            <span style="font-size: 13px;">Woot! </span>
+            <li>Deals and Shenanigans <br></li> <br>
+            <span style="font-size: 13px;">Amazon Subscription Boxes </span>
+            <li>Top subscription boxes-right to<br>your door </li><br>
+
+        </div>
+        <div class="gettoworKkk" onmouseover="line4()" onmouseleave="Undoline4()" id="PO">
+            <span style="font-size: 13px; ">ACX </span>
+            <li>Audiobook <br>Publishing <br>Made easy</li> <br>
+            <span style="font-size: 13px;">Amazon Ignite </span>
+            <li>Sell your Original<br>Digital Educational <br>Resources</li> <br>
+            <span style="font-size: 13px;">DPReview </span>
+            <li>Digital<br>Photography</li><br>
+            <span style="font-size: 13px;">Amazon Photos </span>
+            <li>Unlimited Photo<br>Strage<br>Free with Prime</li><br>
+            <span style="font-size: 13px;">Zappos </span>
+            <li>Shoes &<br>Clothing</li> <br>
+            <span style="font-size: 13px;">PillPack </span>
+            <li>Pharmacy Simplified </li><br>
+
+        </div>
+        <div class="gettoworKKK" onmouseover="line5()" onmouseleave="Undoline5()" id="POPPE">
+            <span style="font-size: 13px; ">Sell on Amazon </span>
+            <li>Start a Selling<br>Account</li> <br>
+            <span style="font-size: 13px;">Amazon Web <br>Services</span>
+            <li>Scalable Cloud<br>Computing <br>Services</li> <br>
+            <span style="font-size: 13px;">Fabric </span>
+            <li>Sewing, Quilting <br>&Knitting </li><br>
+            <span style="font-size: 13px;">Prime Vedio Direct</span>
+            <li>Vedio distribution <br>Made Easy </li><br>
+            <span style="font-size: 13px;">Ring</span>
+            <li>Smart Home <br>security system</li> <br>
+            <span style="font-size: 13px;">Amazon Renewed </span>
+            <li>Like-new products <br>you can trust </li><br>
+
+        </div>
+    </div>
+    <div class="ENd" style=" background-color: #131a22; height: 100px; width: 100%;">
+        <div class="COPy" style="color: white;">
+            <div class="q" onmouseover="line6()" onmouseleave="Undoline6()">
+                Conditions of Use
+            </div>
+            <div class="y" onmouseover="line7()" onmouseleave="Undoline+7()">
+                Privacy Notice
+            </div>
+            <div class="x" onmouseover="line8()" onmouseleave="Undoline8()">
+                Your Ads Privacy Choices
+            </div>
+        </div>
+        <div class="COPy" style="color: white;">
+            <div class="q">
+                @ 1996-2023,Amazon.com,Inc. or its affiliates
+            </div>
+
+        </div>
+    </div>
+
+
+       
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        wrapAround: true,
+        freeScroll: true
+    });
+
+</script>
+<script>
+    $('.iconall').click(function(){
+        $(this).toggleClass("click");
+        $('.sidebar').toggleClass("show");
+    })
+    $('.feat-btn').click(function(){
+     $('nav ul .feat-show').toggleClass("show");
+     $('nav ul .first').toggleClass("rotate");
+    });
+    $('.serv-btn').click(function(){
+     $('nav ul.serv-show').toggleClass("show1");
+     $('nav ul .second').toggleClass("rotate");
+    });
+    $(this).addclass("active").siblings().removeclass("active");
+
+
+</script>
+</html>

@@ -1,0 +1,705 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+
+.box {
+    color: rgb(151, 151, 151);
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 25px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: black
+}
+
+#rec {
+    height: 38px;
+    width: 800px;
+    margin-top: 4px;
+    padding-left: 2px;
+}
+
+.searchicon {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.flag {
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+
+}
+
+#img {
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+#p {
+    margin-top: -10px;
+}
+
+.EN{
+    color: white;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+
+.hello {
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.return {
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #232f3e;
+    height: 33px;
+}
+
+.all {
+    color: white;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+}
+
+.today{
+    color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.today a{
+    color: white;
+    text-decoration: none;
+}
+.Customer {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Customer a {
+    color: white;
+    text-decoration: none;
+}
+
+.Registry {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Registry a {
+    color: white;
+    text-decoration: none;
+}
+
+.gift {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+
+.gift a {
+    color: white;
+    text-decoration: none;
+}
+
+.Sell {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Sell a {
+    color: white;
+    text-decoration: none;
+}
+
+.SHOP {
+    color: white;
+    margin-top: 5px;
+    margin-left: 750px;
+}
+
+.parent1 {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(234, 234, 234), rgb(221, 221, 221), rgba(226, 225, 225, 0.6), rgba(199, 199, 199, 0.6), rgba(201, 200, 200, 0.6));
+}
+
+.dresspick {
+    height: 400px;
+    width: 340px;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    padding: 10px;
+}
+
+#l {
+    margin-top: 10px;
+}
+.fashion {
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.dresspick a {
+    text-decoration: none;
+}
+
+.dresspick a:hover {
+    color: coral;
+}
+
+.fashion a {
+    text-decoration: none;
+}
+
+.fashion a:hover {
+    color: coral;
+}
+
+.warm {
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.c {
+    display: flex;
+}
+
+.CC {
+    display: flex;
+}
+
+.warm a {
+    text-decoration: none;
+}
+
+.warm a:hover {
+    color: coral;
+}
+
+.signup {
+    height: 120px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 15px;
+    word-spacing: 4px;
+}
+
+.security {
+    background-color: #f8cc04;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 90px;
+}
+
+.ad {
+    margin-top: 50px;
+}
+
+.newsec {
+    display: flex;
+    height: 385px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(234, 234, 234), rgb(221, 221, 221), rgba(226, 225, 225, 0.6), rgba(199, 199, 199, 0.6), rgba(201, 200, 200, 0.6));
+}
+
+.dressedit {
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: -150px;
+    padding: 15px;
+}
+
+.maxis {
+    display: flex;
+}
+
+.second {
+    margin-left: 20px;
+}
+
+.third {
+    margin-left: 20px;
+}
+
+.dressedit a {
+    text-decoration: none;
+}
+
+.dressedit a:hover {
+    color: coral;
+}
+
+.shirts {
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: -150px;
+    padding: 15px;
+}
+
+.shirts a {
+    text-decoration: none;
+}
+
+.shirts a:hover {
+    color: coral;
+}
+
+.wweather {
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    margin-top: -150px;
+    padding: 15px;
+}
+
+.frow {
+    display: flex;
+}
+
+.Up2 {
+    margin-left: 40px;
+}
+
+.Drow {
+    display: flex;
+}
+
+.D2 {
+    margin-left: 40px;
+}
+
+.wweather a {
+    text-decoration: none;
+}
+
+.wweather a:hover {
+    color: coral;
+}
+
+.HOLA {
+    height: 400px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: -150px;
+    padding: 15px;
+}
+
+.HOLA a {
+    text-decoration: none;
+}
+
+.HOLA a:hover {
+    color: coral;
+}
+
+.NEWsec2 {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(234, 234, 234), rgb(221, 221, 221), rgba(226, 225, 225, 0.6), rgba(199, 199, 199, 0.6), rgba(201, 200, 200, 0.6));
+}
+
+.Galaxy {
+    height: 370px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.diversity {
+    height: 370px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.Handpicked {
+    height: 370px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.GIftsth {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.Frooow {
+    display: flex;
+}
+
+.Spic {
+    margin-left: 15px;
+}
+
+.Srooow {
+    display: flex;
+}
+
+.Simg {
+    margin-left: 15px;
+}
+
+.Galaxy a {
+    text-decoration: none;
+}
+
+.Galaxy a:hover {
+    color: coral;
+}
+
+.diversity a {
+    text-decoration: none;
+}
+
+.diversity a:hover {
+    color: coral;
+}
+
+.Handpicked a {
+    text-decoration: none;
+}
+
+.Handpicked a:hover {
+    color: coral;
+}
+
+.GIftsth a {
+    text-decoration: none;
+}
+
+.GIftsth a:hover {
+    color: coral;
+}
+
+.newsecc5 {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(234, 234, 234), rgb(221, 221, 221), rgba(226, 225, 225, 0.6), rgba(199, 199, 199, 0.6), rgba(201, 200, 200, 0.6));
+}
+
+.freshness {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.fect-deal {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.homeoffice {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.japan {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.FFrow {
+    display: flex;
+}
+
+.SsSpic {
+    margin-left: 15px;
+}
+
+.freshness a {
+    text-decoration: none;
+}
+
+.freshness a:hover {
+    color: coral;
+}
+
+.fect-deal a {
+    text-decoration: none;
+}
+
+.fect-deal a:hover {
+    color: coral;
+}
+
+.homeoffice a {
+    text-decoration: none;
+}
+
+.homeoffice a:hover {
+    color: coral;
+}
+
+.japan a {
+    text-decoration: none;
+}
+
+.japan a:hover {
+    color: coral;
+}
+
+.add1 {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(234, 234, 234), rgb(221, 221, 221), rgba(226, 225, 225, 0.6), rgba(199, 199, 199, 0.6), rgba(201, 200, 200, 0.6));
+}
+
+.add22 {
+
+    margin-left: 1100px;
+    margin-top: -300px;
+}
+
+.signinn {
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 220px;
+    background-color: #f8cc04;
+    border-radius: 5px;
+}
+
+.backto {
+    background-color: #37475a;
+    height: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.SLfooter {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.SLfooter li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.gettowork {
+    word-spacing: 20px;
+}
+
+.Footerlogo {
+    height: 200px;
+    background-color: #232f3e;
+}
+
+.endfoot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding: 25px;
+    height: 420px;
+    width: 100%;
+}
+
+.endfoot {
+    font-family: inherit;
+}
+
+.endfoot li {
+    font-size: 10px;
+    list-style: none;
+    margin-top: -2px;
+}
+
+.unimg {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.ENd {
+    padding: 40px;
+}
+
+.COPy {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}
+.sidebar{
+position: fixed;
+height: 100%;
+width: 250px;
+left: -250px;
+background: #1b1b1b;
+transition: left 0.4s ease;
+}
+
+.sidebar.show{
+left: 0px;
+}
+
+.sidebar .text{
+color: white;
+font-size: 25px;
+font-weight: 600;
+line-height: 65px;
+text-align: center;
+background: #1e1e1e;
+letter-spacing: 1px;
+}
+nav ul{
+background: #1b1b1b;
+height: 100%;
+width: 100%;
+list-style: none;
+}
+
+nav ul li{
+line-height: 60px;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul li a{
+display: block;
+position: relative;
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+width: 100%;
+border-left: 3px solid transparent;
+}
+
+nav ul li a:hover{
+color: cyan;
+background: #1e1e1e;
+border-left-color:cyan ;
+}
+
+nav ul  ul{
+display: none;
+position: static;
+}
+nav ul .feat-show.show{
+display: block;
+}
+nav ul .serv-show.show1{
+display: block;
+}
+nav ul  ul li{
+line-height: 42px;
+border-bottom: none;
+}
+nav ul ul li a{
+font-size: 17px;
+color: #e6e6e6;
+padding-left: 50px;
+}
+nav ul li a span{
+position: absolute;
+top: 50%;
+right: 20px;
+font-size: 22px;
+transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+transform: translateY(-50%) rotate(-180deg);
+}
+.iconall{
+position: absolute;
+top: 55px;
+left: -5px;
+cursor: pointer;
+}
+.iconall.click{
+left: 260px;
+}

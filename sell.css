@@ -1,0 +1,387 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+.box{
+    color: rgb(151, 151, 151);
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 25px;
+}
+.box a{
+    text-decoration: none;
+}
+.box a:hover{
+    color: black
+}
+#rec{
+    height: 38px;
+    width: 800px;
+    margin-top: 4px;
+    padding-left: 2px;
+}
+.searchicon{
+    margin-top: 5px;
+    height: 50px;
+}
+.flag{
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+#img{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+#p{
+    margin-top: -10px;
+}
+.EN{
+    color: white;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+.hello{
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.return{
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.nav1{
+    display: flex;
+    background-color: #232f3e;
+    height: 40px;
+          }
+.all{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.today{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Customer{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Customer a{
+    color: white;
+    text-decoration: none;
+}
+.Registry{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.gift{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+.Sell{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.SHOP{
+    color: white;
+    margin-top: 5px;
+    margin-left: 830px;
+}
+.navv1{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: 100px;
+    width: 100%;
+   justify-content: space-evenly;
+}
+.adpic{
+    display: flex;
+    height: 610px;
+    background: url(./Sellbg.jpg);
+    background-size: cover;
+    background-color: #f1f9fe;
+    box-sizing: border-box;
+}
+.adpic img{
+    padding-left: 600px;
+}
+.one{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.two{
+    position: absolute;
+}
+.Mmsecc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.overlayb{
+background-color: #181c2c;
+color: white;
+height: 500px;
+width: 600px;
+border-radius: 30px;
+box-sizing: border-box;
+padding: 15px;
+}
+.overlayb span {
+margin: -5px;
+color: rgb(0, 140, 255);
+}
+.btns1 button{
+padding: 2px;
+margin: 20px;
+height: 40px;
+width: 240px;
+border-radius: 5px;
+outline: 0;
+border: 0;
+}
+.carad{
+height: 1380px;
+width: 82%;
+box-sizing: border-box;
+margin-left: 105px;
+border-radius: 20px;
+}
+.fIrSt button{
+margin: 15px;
+}
+.midama{
+color: white;
+box-sizing: border-box;
+height: 150px;
+border-radius: 30px;
+width: 95%;
+text-align: center;
+padding-top: 27px;
+margin-left: 30px;
+background:linear-gradient( to right,
+rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(images/amazon-avvia-le-assunzioni-per-operatori-di-magazzino_2647790.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 42px;  
+
+}
+.midama1{
+color: white;
+box-sizing: border-box;
+height: 150px;
+border-radius: 30px;
+width: 95%;
+text-align: center;
+padding-top: 27px;
+margin-left: 30px;
+background:linear-gradient( to right,
+rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(images/pexels-fauxels-3183145-min.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 42px; 
+}
+.LoWerS{
+display: flex;
+justify-content:space-evenly;
+box-sizing: border-box;
+padding: 10px;
+}
+.carad1{
+height: 1410px;
+width: 82%;
+box-sizing: border-box;
+margin-left: 105px;
+border-radius: 20px;
+background-color: #e2f4f7;
+}
+.carad a{
+text-decoration: none;
+color: black;
+}
+.carad a:hover{
+color: coral;
+}
+.carad1 a{
+text-decoration: none;
+color: black;
+}
+.carad1 a:hover{
+color: coral;
+}
+.carad2{
+height: 1340px;
+width: 82%;
+box-sizing: border-box;
+margin-left: 105px;
+border-radius: 20px;
+background-color: #f2f6e1;
+}
+.carad2 a{
+text-decoration: none;
+color: black;
+}
+.carad2 a:hover{
+color: coral;
+}
+.midama2{
+color: white;
+box-sizing: border-box;
+height: 120px;
+border-radius: 30px;
+width: 95%;
+text-align: center;
+padding-top: 27px;
+margin-left: 30px;
+background:linear-gradient( to right,
+rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(images/pexels-fauxels-3183145-min.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 42px;
+}
+.hoverdivPa{
+display: flex;
+justify-content: space-evenly;
+}
+.hoverdiv{
+height: 435px;
+box-sizing: border-box;
+width: 380px;
+box-shadow: 1px -1px 3px grey;
+}
+.Addiv{
+display: flex;
+height: 440px;
+width: 85%;
+background-color: #e2f4f7;
+color: #232f3e;
+justify-content: space-evenly;
+box-sizing: border-box;
+margin-left: 100px;
+border-radius: 30px;
+}
+.context{
+height: 440px;
+width: 85%;
+box-sizing: border-box;
+border-radius: 5px;
+border: 1px solid gray;
+box-shadow: 2px 1px;
+margin-left: 100px;
+
+}
+.context li{
+list-style: none;
+}
+.context a{
+text-decoration: none;
+color: black;
+}
+.conflix{
+display: flex;
+justify-content: space-evenly;
+}
+.boxend{
+background: url(images/Untitled\ design.png);
+background-size: cover;
+    background-color: #f1f9fe;
+    height: 610px;   
+}
+.lastaddd{
+display: flex;
+justify-content: space-evenly;
+height: 360px;
+width: 60%;
+margin-left: 250px;
+border-radius: 15px;
+box-sizing: border-box;
+background-color: black;
+color: white;
+}
+.backto {
+    background-color: #37475a;
+    height: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.SLfooter {
+    display: flex;
+    color: white;
+    background-color: #232f3e;;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.SLfooter li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.gettowork {
+    word-spacing: 20px;
+}
+
+.Footerlogo {
+    height: 200px;
+    background-color: #232f3e;
+}
+
+.endfoot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding: 25px;
+    height: 420px;
+    width: 100%;
+}
+
+.endfoot {
+    font-family: inherit;
+}
+
+.endfoot li {
+    font-size: 10px;
+    list-style: none;
+    margin-top: -2px;
+}
+
+.unimg {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.ENd {
+    padding: 40px;
+}
+.COPy {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}

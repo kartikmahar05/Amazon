@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+
+.box {
+    color: rgb(151, 151, 151);
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 25px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: black
+}
+
+#rec {
+    height: 38px;
+    width: 800px;
+    margin-top: 4px;
+    padding-left: 2px;
+}
+
+.searchicon {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.flag {
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+
+}
+
+#img {
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+#p {
+    margin-top: -10px;
+}
+
+.EN {
+    color: white;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+
+.hello {
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.return {
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #232f3e;
+    height: 33px;
+}
+
+.all {
+    color: white;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+}
+
+.today{
+    color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.today a{
+    color: white;
+    text-decoration: none;
+}
+.Customer {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Customer a {
+    color: white;
+    text-decoration: none;
+}
+
+.Registry {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Registry a {
+    color: white;
+    text-decoration: none;
+}
+
+.gift {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+
+.gift a {
+    color: white;
+    text-decoration: none;
+}
+
+.Sell {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Sell a {
+    color: white;
+    text-decoration: none;
+}
+
+.SHOP {
+    color: white;
+    margin-top: 5px;
+    margin-left: 750px;
+}
+.uniqnav{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 15px;
+    height: 60px;
+    width: 40%;
+     justify-content: space-evenly;
+}
+.uniqnav li{
+    list-style: none;
+    color: #232f3e;
+}
+.uniqnav li a{
+    text-decoration: none;
+    color: #232f3e;
+}
+.Midsec{
+    display: flex;
+    box-sizing: border-box;
+    height: 320px;
+    width: 100%;
+    background-color: #c4f1f4;
+}
+.text{
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+#rr{
+    background-color: #f8cc04;
+    height: 32px;
+    width: 200px;
+    border-radius: 10px;
+}
+.graydiv{
+    box-sizing: border-box;
+    background-color: #f4f2f3;
+    height: 160px;
+}
+.lowersec{
+    box-sizing: border-box;
+    
+}
+.lowersec1{
+    height: 200px;
+}
+.sll{
+    width: 180px;
+    height: 40px;
+    box-shadow: 0px -3px 5px gray;
+}
+    .backto {
+    background-color: #37475a;
+    height: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.SLfooter {
+    display: flex;
+    color: white;
+    background-color: #232f3e;;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.SLfooter li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.gettowork {
+    word-spacing: 20px;
+}
+
+.Footerlogo {
+    height: 200px;
+    background-color: #232f3e;
+}
+
+.endfoot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding: 25px;
+    height: 420px;
+    width: 100%;
+}
+
+.endfoot {
+    font-family: inherit;
+}
+
+.endfoot li {
+    font-size: 10px;
+    list-style: none;
+    margin-top: -2px;
+}
+
+.unimg {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.ENd {
+    padding: 40px;
+}
+
+.COPy {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}

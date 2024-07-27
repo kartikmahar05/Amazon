@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+
+.box {
+    color: rgb(151, 151, 151);
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 25px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: black
+}
+
+#rec {
+    height: 38px;
+    width: 800px;
+    margin-top: 4px;
+    padding-left: 2px;
+}
+
+.searchicon {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.flag {
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+#img {
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+#p {
+    margin-top: -10px;
+}
+
+.EN {
+    color: white;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+
+.hello {
+    color: white;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.return {
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #232f3e;
+    height: 33px;
+}
+
+.all {
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.today {
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Customer {
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.Customer a {
+    color: white;
+    text-decoration: none;
+}
+
+.Registry {
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.gift {
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.Sell {
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.SHOP {
+    color: white;
+    margin-top: 5px;
+    margin-left: 830px;
+}
+
+.newwhite {
+    background-color: #fafafa;
+    height: 30px;
+}
+
+.cell {
+    width: 15%;
+    height: 350px;
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 1px;
+    color: black;
+}
+
+.cell img {
+
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+
+}
+
+#newbg {
+    height: 300px;
+    font-size: 15px;
+}
+
+#newbg img {
+    border-radius: 700px;
+    margin: 50px;
+    width: 80%;
+}
+
+.LIVEparent {
+    display: flex;
+    height: 300px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+#ksk {
+    height: 250px;
+}
+
+#newbg {
+    background-color: #f0ecec;
+}
+
+#uej {
+    border-radius: 30px;
+}
+
+.sinav a{
+    text-decoration: none;
+    color: black;
+}
+
+.GRIDitems {
+    display: flex;
+    height: 2000px;
+    width: 100%;
+    border: 1px solid grey;
+
+}
+
+.SiDeBar {
+    height: 2000px;
+    width: 300px;
+    border-right: 1px solid grey;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.SiDeBar li{
+    list-style: none;
+}
+.SiDeBar li a{
+    text-decoration: none;
+    color: #007185;
+}
+.SiDeBar li a:hover{
+    color: coral;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.grid-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.grid-container a:hover {
+    color: coral;
+}
+#pip{
+   padding: 40px;
+}
+#pip img{
+    margin-top: 70px;
+}
+.signinn {
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+button {
+    height: 40px;
+    width: 220px;
+    background-color: #f8cc04;
+    border-radius: 5px;
+}
+.SLfooter {
+    display: flex;
+    color: white;
+    background-color: #232f3e;;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.SLfooter li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.gettowork {
+    word-spacing: 20px;
+}
+
+.Footerlogo {
+    height: 200px;
+    background-color: #232f3e;
+}
+
+.endfoot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    padding: 25px;
+    height: 420px;
+    width: 97%;
+}
+
+.endfoot {
+    font-family: inherit;
+}
+
+.endfoot li {
+    font-size: 10px;
+    list-style: none;
+    margin-top: -2px;
+}
+
+.unimg {
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.ENd {
+    padding: 40px;
+}
+
+.COPy {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}
+.newwhite{
+    list-style: none;
+}
